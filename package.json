@@ -1,0 +1,30 @@
+{
+  "name": "contract-checklist-js",
+  "version": "1.0.0",
+  "description": "Scan a freelance contract for commonly-missing clauses. Zero dependencies, runs via npx straight from GitHub.",
+  "bin": {
+    "contract-checklist": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "author": "kleogeos",
+  "keywords": [
+    "freelance",
+    "contract",
+    "checklist",
+    "cli",
+    "zero-dependencies",
+    "npx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kleogeos/contract-checklist-js"
+  },
+  "homepage": "https://kleogeos.github.io/freelancer-tools/"
+}
